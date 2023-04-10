@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+    <head> 
+        <meta charset="utf-8">
+
+    </head>
+
+    <body>
+        <form>
+            <h3>수강과목조사</h3>
+            <label>이름:<input type="text"></label>
+            <br>
+            <label>학과:<input type="text"></label>
+            <br>
+            <label>학년:
+                <select name="job" size="1">
+                    <option value="1" selected>1학년</option>
+                    <option value="2">2학년</option>
+                    <option value="3">3학년</option>
+                    <option value="over 4">4학년 이상</option>
+                </select>
+            </label>
+            <br>
+            <label>수강과목(중복선택가능)
+                <select name="sub" size="3" multiple>
+                    <option value="it기술의이해">it기술의이해</option>
+                    <option value="w">웹프로그래밍기초</option>
+                    <option value="u">UI설계</option>
+                </select>
+            </label>
+            <br>
+            <button type="submit">확인</button>
+            <button type="reset">취소</button>
+        </form>
+    </body>
+</html>
